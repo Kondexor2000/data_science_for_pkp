@@ -1,0 +1,7 @@
+train_id,category,travel_date,departure_station,arrival_station,distance_km,departure_time,arrival_time
+A,regionalny,2026-09-01,Piła Główna,Poznań Główny,95,07:10,09:02
+B,InterCity,2026-09-01,Piła Główna,Poznań Główny,95,08:15,09:42
+A,regionalny,2026-09-02,Piła Główna,Poznań Główny,95,07:10,08:58
+B,InterCity,2026-09-02,Piła Główna,Poznań Główny,95,08:15,09:39
+A,regionalny,2026-09-03,Piła Główna,Poznań Główny,95,07:10,09:05
+B,InterCity,2026-09-03,Piła Główna,Poznań Główny,95,08:15,09:45
