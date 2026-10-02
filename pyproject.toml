@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "pila-poznan-train-analysis"
 version = "0.1.0"
-description = "MVP do porównania czasu przejazdu pociągów na trasie Piła–Poznań"
+description = "MVP do porównania czasu przejazdu pociągów na trasie Piła–Poznań–Wrocław z przesiadką w Poznaniu"
 requires-python = ">=3.10"
 dependencies = ["pandas>=2.0"]
 

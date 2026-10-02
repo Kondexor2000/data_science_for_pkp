@@ -13,9 +13,9 @@ pipeline {
 
         stage('Build and smoke-test Docker') {
             steps {
-                sh 'docker build -t pila-poznan-train-analysis .'
+                sh 'docker build -t pila-poznan-wroclaw-transfer-analysis .'
                 sh 'mkdir -p reports/docker'
-                sh 'docker run --rm -v "$WORKSPACE/reports/docker:/app/reports" pila-poznan-train-analysis'
+                sh 'docker run --rm -v "$WORKSPACE/reports/docker:/app/reports" pila-poznan-wroclaw-transfer-analysis'
                 sh 'test -s reports/docker/summary.csv'
             }
         }
