@@ -1,0 +1,8 @@
+service,server_name,game,player,connected_at,disconnected_at
+teamspeak,PKP Gaming TeamSpeak,,Ala,2026-09-01T18:00:00+02:00,2026-09-01T21:30:00+02:00
+teamspeak,PKP Gaming TeamSpeak,,Bartek,2026-09-01T19:15:00+02:00,2026-09-01T20:45:00+02:00
+game,Survival,Minecraft,Ala,2026-09-01T18:10:00+02:00,2026-09-01T20:05:00+02:00
+game,Survival,Minecraft,Bartek,2026-09-01T18:20:00+02:00,2026-09-01T20:10:00+02:00
+game,CS2 Public,Counter-Strike 2,Ala,2026-09-02T20:00:00+02:00,2026-09-02T22:00:00+02:00
+game,CS2 Public,Counter-Strike 2,Czarek,2026-09-02T20:30:00+02:00,2026-09-02T21:45:00+02:00
+game,Valheim Co-op,Valheim,Bartek,2026-09-03T17:00:00+02:00,2026-09-03T19:30:00+02:00
