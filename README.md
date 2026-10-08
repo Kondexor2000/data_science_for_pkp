@@ -8,6 +8,13 @@ MVP analizuje znormalizowane rekordy sesji zaimportowane z CSV: czas połączeni
 
 ## Uruchomienie
 
+Sklonuj repozytorium i przejdź do katalogu projektu:
+
+```powershell
+git clone https://github.com/Kondexor2000/steam.git
+cd steam
+```
+
 Wymagany Python 3.10+.
 
 ```powershell
