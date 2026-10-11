@@ -9,5 +9,5 @@ RUN python -m pip install --no-cache-dir .
 COPY data ./data
 RUN mkdir -p reports
 
-ENTRYPOINT ["train-analysis"]
-CMD ["data/sample_trips.csv", "--output", "reports/summary.csv"]
+ENTRYPOINT ["server-activity"]
+CMD ["data/sample_sessions.csv"]

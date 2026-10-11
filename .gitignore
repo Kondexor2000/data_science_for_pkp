@@ -3,3 +3,17 @@ __pycache__/
 *.py[cod]
 .pytest_cache/
 reports/*.csv
+*.db
+*.db-shm
+*.db-wal
+.env*
+!.env.example
+bin/
+obj/
+node_modules/
+frontend/dist/
+webapi/data/
+*.tsbuildinfo
+/frontend/vite.config.js
+/frontend/vite.config.d.ts
+/antihacker/
