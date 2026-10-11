@@ -3,9 +3,9 @@ requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "pila-poznan-train-analysis"
+name = "server-activity-analysis"
 version = "0.1.0"
-description = "MVP do porównania czasu przejazdu pociągów na trasie Piła–Poznań–Wrocław z przesiadką w Poznaniu"
+description = "MVP do analizy czasu graczy na TeamSpeak i serwerach gier"
 requires-python = ">=3.10"
 dependencies = ["pandas>=2.0"]
 
@@ -13,7 +13,7 @@ dependencies = ["pandas>=2.0"]
 dev = ["pytest>=8.0"]
 
 [project.scripts]
-train-analysis = "train_analysis.cli:main"
+server-activity = "server_activity.cli:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]

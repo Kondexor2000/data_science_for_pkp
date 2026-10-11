@@ -1,0 +1,10 @@
+@baseUrl = http://localhost:5000
+@token = paste-a-bearer-token-here
+
+### Current account login history
+GET {{baseUrl}}/api/security/login-history
+Authorization: Bearer {{token}}
+
+### Decrypted backup (requires Security__AdminLogins membership)
+GET {{baseUrl}}/api/security/backup
+Authorization: Bearer {{token}}
